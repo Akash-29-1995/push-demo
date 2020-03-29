@@ -7,18 +7,6 @@
   <artifactId>onlinebookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
-    <distributionManagement>
-      <repository>
-        <uniqueVersion>false</uniqueVersion>
-        <id>corp1</id>
-        <name>Corporate Repository</name>
-        <url>scp://repo/maven2</url>
-        <layout>default</layout>
-      </repository>
-	</distributionManagement>
-  
-  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -38,7 +26,7 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+   </build>
   
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -68,6 +56,15 @@
   		<version>3.1.0</version>
   	</dependency>
   </dependencies>
+    <distributionManagement>
+      <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>corp1</id>
+        <name>Corporate Repository</name>
+        <url>scp://repo/maven2</url>
+        <layout>default</layout>
+      </repository>
+	</distributionManagement>
 </project>
 
    
