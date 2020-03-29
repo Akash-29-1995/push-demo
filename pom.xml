@@ -47,3 +47,11 @@
   	</dependency>
   </dependencies>
 </project>
+
+<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/thara/testesb/in</url>
+       </repository>
+   </distributionManagement>
