@@ -57,7 +57,6 @@
   	</dependency>
   </dependencies>
   
-  <build>
   <extensions>
     <extension>
       <groupId>org.apache.maven.wagon</groupId>
@@ -65,7 +64,7 @@
       <version>2.10</version>
   </extension>
   </extensions>
-  </build>
+ 
     <distributionManagement>
       <repository>
         <uniqueVersion>false</uniqueVersion>
